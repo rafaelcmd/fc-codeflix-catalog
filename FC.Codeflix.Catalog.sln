@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2ECC353A-54B3-47C6-9E3B-1D9DC08DE590}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C77B6FE3-EDC4-46BD-892B-DE696F443FCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Codeflix.Catalog.UnitTests", "tests\FC.Codeflix.Catalog.UnitTests\FC.Codeflix.Catalog.UnitTests.csproj", "{A75E58B2-C3B5-4035-B6C7-0ECD89DB7909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Codeflix.Catalog.Domain", "src\FC.Codeflix.Catalog.Domain\FC.Codeflix.Catalog.Domain.csproj", "{CD16DF9D-1A98-42F7-9233-FCEACF1464F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A75E58B2-C3B5-4035-B6C7-0ECD89DB7909} = {C77B6FE3-EDC4-46BD-892B-DE696F443FCC}
+		{CD16DF9D-1A98-42F7-9233-FCEACF1464F9} = {2ECC353A-54B3-47C6-9E3B-1D9DC08DE590}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A75E58B2-C3B5-4035-B6C7-0ECD89DB7909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75E58B2-C3B5-4035-B6C7-0ECD89DB7909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75E58B2-C3B5-4035-B6C7-0ECD89DB7909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75E58B2-C3B5-4035-B6C7-0ECD89DB7909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD16DF9D-1A98-42F7-9233-FCEACF1464F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD16DF9D-1A98-42F7-9233-FCEACF1464F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD16DF9D-1A98-42F7-9233-FCEACF1464F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD16DF9D-1A98-42F7-9233-FCEACF1464F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
